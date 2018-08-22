@@ -2,7 +2,7 @@
 
 var app = require('../config/app.json');
 var dict = require('../config/dictionary.json');
-var aux = require('./aux');
+var aux = require('./_aux');
 var settings = require('./settings');
 var storage = require('node-persist');
 var aliases;

@@ -1,7 +1,7 @@
 'use strict';
 
 var app = require('../config/app.json');
-var aux = require('./aux');
+var aux = require('./_aux');
 var dict = require('../config/dictionary.json');
 var inquirer = require('inquirer');
 var pkg = require('../package.json');
